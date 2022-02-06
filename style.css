@@ -1,0 +1,114 @@
+body{
+  margin:0;
+  text-align: center;
+  font-family: 'Monsterrat',sans-serif;
+  width: 100%;
+}
+h1{ margin:auto;
+    width: 10%;
+    color:blue;
+    font-family: 'Sacramento',cursive;
+    font-size: 50px;
+}
+h2{    color:blue;
+      font-family: 'Monsterrat',serif;
+  }
+  h3{    color:blue;
+      font-family: 'Monsterrat',serif;
+}
+p{
+  font-size: 20px;
+  font-style: normal;
+}
+
+hr {
+  width: 10%;
+  border: 20px dotted;
+  border-style: none none dotted;
+  color: grey;
+}
+.top-container{
+  background-color: #E3FDFD;
+}
+.top-cloud{
+  position: relative;
+  left: 200px;
+  margin-top: 50px;
+}
+.bottom-cloud{
+  position: absolute;
+}
+.middle-container{
+  margin:0;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.myprofile{
+  height:250px;
+  width:250px;
+  border-radius: 50%;
+  margin-bottom: 50px;
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.5), 0 14px 28px 0 rgba(0,0,0,0.30);
+}
+.skills{
+  margin-top: 100px;
+}
+.skill-row{
+  margin-top: 100px;
+  margin-left: auto;
+  margin-bottom: 200px;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+}
+.skill-row2{
+  margin-top: 200px;
+  text-align: center;
+}
+.webdev{
+  margin-right: 50px;
+  height: 200px;
+  width: 250px;
+  float: left;
+}
+.programmer{
+  margin-top: 5px;
+    margin-right: 50px;
+    height: 200px;
+    width: 250px;
+    float: right;
+}
+.contactme{
+  margin-top: 100px;
+}
+.bottom{
+  background-color: black;
+  padding: 60px;
+}
+.link{
+  margin-left: 30px;
+  margin-right: 50px;
+}
+.button {
+        display: inline-block;
+        background-color: aqua;
+        border-radius: 10px;
+        border: 4px double #cccccc;
+        color: blue;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+      }
+      .button:hover {
+        background-color: #E3FDFD;
+      }
+.a{
+  color: white;
+}
+.footer-link{
+  color: white;
+}
